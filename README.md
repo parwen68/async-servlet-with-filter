@@ -7,6 +7,8 @@ Run the application in a Tomcat container or directly with Jetty
 > ./gradlew runJetty
 ~~~
 
+and open [http://localhost:8080](http://localhost:8080)
+
 ## Description
 1. First the filter is called with dispatch type REQUEST
 1. An _AsyncContext_ is started
