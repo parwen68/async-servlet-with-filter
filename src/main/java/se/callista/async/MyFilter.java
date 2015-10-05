@@ -67,7 +67,7 @@ public class MyFilter implements Filter {
 
     }
 
-    private static class MyAsyncListener implements AsyncListener {
+    public static class MyAsyncListener implements AsyncListener {
 
         @Override
         public void onComplete(AsyncEvent event) throws IOException {
