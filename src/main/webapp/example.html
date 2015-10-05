@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+<div id="result">Wait</div>
+<a href="index.html">back</a>
+<script>
+  $.get('example', function(data) {
+    $('#result').append(data);
+  });
+</script>
+</body>
+</html>

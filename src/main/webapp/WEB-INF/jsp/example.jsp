@@ -1,0 +1,1 @@
+<b>Hello in JSP (<%=Thread.currentThread()%>) attr=<%=request.getAttribute("ip")%></b><br>
